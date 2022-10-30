@@ -29,8 +29,8 @@ const Toggler = (props) => {
       <Routes>
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/*" element={<NotFound />} /> 
-         <Route path="/" element={<HomePage />} />
+        <Route path="/*" element={<NotFound />} />
+        <Route path="/" element={<HomePage />} />
       </Routes>
     </BrowserRouter>
   );

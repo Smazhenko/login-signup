@@ -1,78 +1,75 @@
-.wrapper{
-    height: 80vh;
-    background-color: rgb(62 169 245); 
+.wrapper {
+  height: 80vh;
+  background-color: rgb(62 169 245);
 }
 .widthInput {
-    position: relative;
-    box-sizing: border-box;
-    padding: 5px;
-    padding-bottom: 15px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 5px;
+  padding-bottom: 15px;
 }
 
-.container{
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.container {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.header{
-    font-size: 30px;
-    color: white;
-    font-family: sans-serif;
-    font-weight: 600;
-    padding-bottom: 30px;
+.header {
+  font-size: 30px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 600;
+  padding-bottom: 30px;
 }
 
-
-.form{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    height: 45%;
-    width: 500px;
-    justify-content: space-between;
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 45%;
+  width: 500px;
+  justify-content: space-between;
 }
 
-.inpSize,.btn{
-    height: 70px;
-    border-radius: 5px;
-    border: 2px solid transparent;
-    outline: none;
-    
+.inpSize,
+.btn {
+  height: 70px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  outline: none;
 }
 
-.inpSize{
-    padding-left: 20px;
-    font-size: 1em;
-    &::placeholder{
-        color: grey;
-        letter-spacing: 1px;
-    }
+.inpSize {
+  padding-left: 20px;
+  font-size: 1em;
+  &::placeholder {
+    color: grey;
+    letter-spacing: 1px;
+  }
 }
 
-.btn{
-    background-color: #28d2d0;
-    cursor: pointer;
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
+.btn {
+  background-color: #28d2d0;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
 }
 
-
-.border{
-    border-color: red;
+.border {
+  border-color: red;
 }
-
 
 .errorMail {
-    position: absolute;
-    color: red;
-    top: -20px;
+  position: absolute;
+  color: red;
+  top: -20px;
 }
 
-.errorPass{
-    position: absolute;
-    color: red;
-    bottom: 167px;
+.errorPass {
+  position: absolute;
+  color: red;
+  bottom: 167px;
 }

@@ -1,6 +1,6 @@
 import React from "react";
-import { Formik, Form} from "formik";
-import {SCHEMA_LOGIN} from "../../utils/validateSchemas";
+import { Formik, Form } from "formik";
+import { SCHEMA_LOGIN } from "../../utils/validateSchemas";
 import Input from "../Input";
 import styles from "./style.module.scss";
 
@@ -27,8 +27,18 @@ function Login(props) {
           {(formikProps) => {
             return (
               <Form className={styles.form}>
-               <Input elementstyle={styles.widthInput} name="email" type="email" placeholder="Email address" />
-                <Input elementstyle={styles.widthInput} name="pass" type="password" placeholder="Password" />
+                <Input
+                  elementstyle={styles.widthInput}
+                  name="email"
+                  type="email"
+                  placeholder="Email address"
+                />
+                <Input
+                  elementstyle={styles.widthInput}
+                  name="pass"
+                  type="password"
+                  placeholder="Password"
+                />
                 <input type="submit" className={styles.btn} value="LOGIN" />
               </Form>
             );

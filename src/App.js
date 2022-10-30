@@ -1,7 +1,7 @@
-import Board from "./components/Board";
+import Toggler from "./components/Toggler";
 
 function App() {
-  return <Board />;
+  return <Toggler />;
 }
 
 export default App;

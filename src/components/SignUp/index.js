@@ -69,7 +69,7 @@ function SignUp(props) {
                   placeholder="Password Confirmation"
                 />
                 <div className={styles.checkbox}>
-                  <Field name='picked' type='radio' value='one'/>
+                  <Field name="picked" type="radio" value="one" />
                   <span className={styles.checkText}>Join As a Buyer</span>
                   <p className={styles.secondText}>
                     I am looking for a Name, Logo or Tagline for my business,
@@ -82,7 +82,7 @@ function SignUp(props) {
                   />
                 </div>
                 <div className={styles.checkbox}>
-                  <Field name='picked' type='radio' value='two'/>
+                  <Field name="picked" type="radio" value="two" />
                   <span className={styles.checkText}>
                     Join As a Creative or Marketplace Seller
                   </span>
