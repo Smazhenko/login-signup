@@ -1,0 +1,138 @@
+.wrapper{
+    height: 90vh;
+    background-color: rgb(62 169 245); 
+}
+.widthInput {
+    position: relative;
+    box-sizing: border-box;
+    padding: 5px;
+    padding-bottom: 15px;
+    width: 270px;
+}
+
+.container{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    font-size: 40px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+
+.form{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 45%;
+    flex-wrap: wrap;
+    width: 555px;
+    justify-content: space-between;
+}
+
+.inpSize,.btn{
+    height: 70px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    outline: none;
+    
+}
+
+.inpSize{
+    padding-left: 20px;
+    font-size: 1em;
+    &::placeholder{
+        color: grey;
+        letter-spacing: 1px;
+    }
+}
+
+.btn{
+    background-color: #28d2d0;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+}
+
+
+.border{
+    border-color: red;
+}
+
+
+.errorMail {
+    position: absolute;
+    color: red;
+    top: -20px;
+}
+
+.errorPass{
+    position: absolute;
+    color: red;
+    bottom: 167px;
+}
+
+.subHeader{
+    text-align: center;
+    font-size: 19px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    width: 460px;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    padding-bottom: 30px;
+}
+
+.w50{
+    width: 270px;
+}
+
+.checkbox{
+    width: 100%;
+    height: 70px;
+    border: 1px solid white;
+    margin: 20px 0;
+    padding: 5px 5px 5px 10px;
+}
+
+.checkText{
+    color: white;
+    font-size: 26px;
+    padding-left: 20px;
+
+}
+
+.secondText{
+    color: white;
+    font-size: 14px;
+    padding-left: 45px;
+    padding-top: 8px;
+}
+.error {
+    color: red;
+    
+}
+
+
+@media screen and (max-width :690px) {
+    // .form{
+    //     flex-direction: column;
+    // }
+
+    .widthInput{
+        width: 100%;
+    }
+
+    .wrapper{
+        height: 120vh;
+    }
+}

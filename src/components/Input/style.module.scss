@@ -1,0 +1,32 @@
+.wrapper {
+    position: relative;
+    box-sizing: border-box;
+    padding: 5px;
+    padding-bottom: 15px;
+}
+
+.inpSize {
+  width: 100%;
+  box-sizing: border-box;
+  height: 70px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  outline: none;
+  padding-left: 20px;
+  font-size: 1em;
+  &::placeholder {
+    color: grey;
+    letter-spacing: 1px;
+  }
+}
+
+.border {
+  border-color: red;
+}
+
+.error {
+    position: absolute;
+    color: red;
+    top: -15px;
+    left: 0;
+}
